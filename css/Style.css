@@ -1,0 +1,48 @@
+body{
+    #main video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(48,25,52,0.75);
+          }
+          @media (min-aspect-ratio: 16/9) {
+            video {
+              width: 100%;
+              height: auto;
+            }
+          }
+          @media (max-aspect-ratio: 16/9) {
+            video {
+              width: auto;
+              height: 100%;
+            }
+          }
+      }
+      p{
+        color:azure
+      }
+      footer{
+        color:azure
+      }
+}
+body{
+  background-color: rgb(213, 108, 108)
+}
+#p1{
+  color: rgb(0, 204, 255)
+}
+#p2{
+  color: rgb(36, 136, 36)
+}
+#p3{
+  color:rgb(170, 36, 211)
+}

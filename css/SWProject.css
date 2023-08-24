@@ -1,0 +1,98 @@
+img {
+    border: 2px solid #333;
+    border-radius: 5px;
+   
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+  }
+
+.body1 {
+    background-color: rgb(169, 5, 5);
+}
+.body2 {
+    background: no-repeat center/100% url("https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    margin-top: 20px;
+    color:white;
+}
+h1{
+    background-color: rgba(0, 255, 255, 0.474);
+    color:rgb(14, 1, 249);
+    border:rgb(6, 129, 195);
+    border-style:solid;
+    text-align:center;
+
+}
+.imagediv  { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top:5%;
+}
+.iframe{
+    max-width: fit-content;
+    justify-content: center; 
+    align-items: center;
+    padding-top:10%;
+}
+p{
+    font-size:56;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    text-align: center;
+    border-style:double;
+    background-color:black;
+}
+.p1{
+    font-size: 36;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    color:aqua;
+
+}
+form{
+    text-align:left;
+    color:lightgreen;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #14010140;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: rgb(4, 176, 250);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }  
+.card{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+/* @media (max-width=500px) {
+    .body2{
+    background: no-repeat center 100% url("https://images.unsplash.com/photo-1501862700950-18382cd41497?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=519&q=80");
+}
+} */

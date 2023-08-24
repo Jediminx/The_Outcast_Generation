@@ -1,0 +1,31 @@
+h2{
+    border:3px solid hsl(0, 100%, 56%);
+    border: radius 10px;
+    width:500px;
+    height: 30px;
+    box-shadow: 3px 3px 5px;
+}
+
+p1{
+    border-bottom:3px solid rgb(0, 0, 0);
+    border-top:3px solid rgb(0, 0, 0);
+    border-left:3px solid rgb(2, 0, 0);
+    border-right:3px solid rgb(0, 0, 0);
+    width:100px;
+    height: 100px;
+    background-color: rgb(187, 197, 198);
+    box-shadow: 3px 3px 5px;
+    
+}
+h2{
+    text-shadow:3px 3px 5px rgb(244, 64, 64),-3px -3px -5px rgb(161, 8, 143);
+}
+p2{
+    width:100px;
+    height: 100px;
+    background-color: rgb(187, 197, 198);
+    box-shadow: 3px 3px 5px;
+}
+h4{
+    
+}

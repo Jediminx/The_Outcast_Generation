@@ -1,0 +1,85 @@
+body{
+    background:no-repeat center/200% url("https://cdn.pixabay.com/photo/2021/04/09/23/05/anime-6165682_960_720.jpg");
+     background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+  .wrapper {
+    display: grid;
+  /* grid-template-areas:
+      "header header header"
+      "main main main"
+      "main main main"
+      "footer footer footer"
+    ; */
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #14010140;
+    
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: rgb(0, 9, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .header {
+  grid-area:"header"; 
+  }
+  
+  .main {
+    
+  grid-area:"main";
+  }
+  .featured-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+   
+  .article-cards {
+    min-height: calc(100vh - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .card {
+    min-height: 32rem;
+    max-width: 23rem;
+    background-color: rgba(240, 248, 255, 0.193);
+  }
+   
+  .card-body {
+    display: flex;
+    flex-direction: column;
+   padding-left: 10%;
+  
+  }
+  
+   
+  .card-img-top {
+  height: 700px;
+  object-fit: cover;
+  object-position: top;
+  }
+  
+  
+  
+  .footer {
+   grid-area:footer 
+  
+  }
+  .footer__content {
+    width: 100%;
+    padding-block: 1.5rem;
+    font-weight: bold;
+    align-items:bottom;
+     
+  }
+  
+  

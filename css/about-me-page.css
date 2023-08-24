@@ -1,0 +1,121 @@
+.grid-container {
+  /* resize: both; */
+  overflow: auto;
+  display: grid;
+  gap: 4px;
+  padding: 4px;
+  grid-template-areas: "header,header,header"
+  "sideone,sideone, sidetwo"
+  "Sideone, sideone sidetwo"
+  "img,img, img"
+  "footer footer footer";
+  /* border: 1px solid grey; */
+  /* background-color: rgb(145, 135, 235); */
+  /* grid-template-rows: 150px 150px; */
+  /* grid-template-columns: 150px 150px 150px 150px 150px; */
+}
+
+.grid-item {
+  background-color: #444;
+  text-align: center;
+  color: #ddd;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding: 12px;
+}
+
+.sideone{
+  display:grid;
+  text-align:right;
+  grid-auto-flow: initial;
+}
+
+img {
+  height: 100px;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1604251405903-b8c4e83cdf7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=888&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    }
+    /* .h3{
+        color: rgb(35, 2, 250);
+        text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(0, 225, 255),
+        0 0 82px rgb(0, 255, 255),
+        0 0 92px rgb(0, 255, 225),
+        0 0 102px rgb(0, 255, 255),
+        0 0 151px rgb(0, 255, 255);
+        border: solid;
+        background-color: rgba(0, 0, 0, 0.625);
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.99);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+  }
+        
+     
+  
+    .p1{
+      
+        float:left;
+        border-style: solid;
+        background-color:rgba(0, 0, 0, 0.625);
+        background-size:cover;
+        color:rgb(10, 80, 245);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:500;
+        font-size: 25px;
+        position: left;
+        text-align:left;
+     
+    
+    }
+    main{
+        float:right;
+        border-style: solid;
+        background-color:rgba(0, 0, 0, 0.625);
+        color:rgb(38, 0, 254);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:500;
+        font-size: 25px;
+        position: left;
+        text-align:left; */
+    /* } */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      
+      .card {
+        background-color: rgba(255, 255, 255, 0.256);
+        padding: 20px;
+        margin-top: 20px;
+      }
+      
+    
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+     
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #dddddd3b;
+        margin-top: 20px;
+        font-size: small;
+        color: rgb(240, 243, 242);
+        position:left;
+        text-align: left;
+        float:left;
+        margin: bottom;
+      }
+    
