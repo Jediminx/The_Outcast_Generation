@@ -4,7 +4,7 @@ body{
     background-attachment: fixed; 
     background-size: 100% 100%;
   }
-  .wrapper {
+  /* .wrapper {
     display: grid;
   /* grid-template-areas:
       "header header header"
@@ -12,7 +12,7 @@ body{
       "main main main"
       "footer footer footer"
     ; */
-  }
+  
   .topnav {
     overflow: hidden;
     background-color: #14010140;
@@ -31,7 +31,7 @@ body{
   grid-area:"header"; 
   }
   
-  .main {
+  /* .main {
     
   grid-area:"main";
   }
@@ -39,7 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+  } */
    
   .article-cards {
     min-height: calc(100vh - 300px);
