@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Game | Movies, TV & Books</title>
+  <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+  <noscript>
+    <div>You need to have JavaScript enabled in order to use this app!</div>
+  </noscript>
+  <header class="header">
+    <h3 id="user-display">Username: <span id="current-username"></span></h3>
+    <h1>TRIVIA</h1>
+    <h2>Movies &#x2022 TV &#x2022 BOOKS</h2>
+    <h2 class="mobile-subheading">Movies <br> TV <br> BOOKS</h2>
+  </header>
+  <main id="container" class="container">
+    <section id="start" class="start">
+      <div id="username-field">
+        <label id="username-label" for="username">Enter a username</label>
+        <input 
+          required
+          minlength="5" 
+          type="text" 
+          name="username" 
+          id="username" 
+          placeholder="e.g. - captainAwesome"
+        >
+        <small id="validation-msg">Required</small>
+      </div>
+      <button disabled id="start-btn" class="start-btn">Start Game</button>
+    </section>
+    <section id="q1" class="question q1">
+      <div class="question__text">QUESTION 1</div>
+      <div class="answers">
+        <button id="q1__answer-selection-1" class="answer">
+          <div id="select-indicator"></div>
+          <div id="answer__text" class="answer__text"></div>
+        </button>
+        <button id="q1__answer-selection-2" class="answer">
+          <div id="select-indicator"></div>
+          <div id="answer__text" class="answer__text"></div>
+        </button>
+        <button id="q1__answer-selection-3" class="answer">
+          <div id="select-indicator"></div>
+          <div id="answer__text" class="answer__text"></div>
+        </button>
+        <button id="q1__answer-selection-4" class="answer">
+          <div id="select-indicator"></div>
+          <div id="answer__text" class="answer__text"></div>
+        </button>
+      </div>
+      <button disabled id="q1__next-question" class="next-question">Next</button>
+    </section>
+      <button id="play-again" class="play-again">Play Again</button>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.1/dist/purify.min.js"></script>
+  <script src="https://unpkg.com/validator@latest/validator.min.js"></script>
+  
+  <script src="./modal.js"></script>
+  <script type="module" src="./game.js"></script>
+</body>
+</html>

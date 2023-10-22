@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trivia</title>
+    <link rel="stylesheet" href="./game2.css"> 
+     <video class="background" src="./videos/pretty-background.mp4" type="video/mp4" muted loop autoplay ></video>
+     <audio class="audio" controls autoplay loop >
+        <source src="./music/Anime lofi.mp3" type="audio/mp3">
+        <source src="./music/Anime lofi.mp3" type="audio/mp3">
+      </audio>
+</head>
+<body>
+  
+ <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">What is the one beverage that ghouls can consume without getting sick in "Tokyo Ghoul"?</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Orange Juice</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Milk</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Cola</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Coffee</label>
+        </li>
+      </ul>
+    </div>
+    <button id="submit">Submit</button>
+  </div> 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>  
+  <script src="./game2.js"></script>
+</body>
+</html>

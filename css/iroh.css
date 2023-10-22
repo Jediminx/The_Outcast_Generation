@@ -1,52 +1,12 @@
 body{
-    background: no-repeat center/100% url("https://plus.unsplash.com/premium_photo-1661878589476-bcad7fe1b8c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: blanchedalmond;
+}
+.border{
+  border:solid;
+  background-color:blanchedalmond;
+  color:rgb(145, 8, 92);
 }
 
-/* .grid-container {
-    display: grid;
-    grid-template-areas:  "header header header header header"
-    "aside-one main main main aside-two"
-    "aside-one main main main aside-two"
-    "footer footer footer footer footer";
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: larger;
-   color:rgb(91, 1, 92);
-   
-  
-
-}
-.header {
-grid-area: "header";
-color:darkolivegreen;
-text-align: center;
-
-
-}
-main{
-grid-area: "main";
-border-width: 15px;
-background-color:rgba(0, 0, 1, 0.401);
-border-style:outset;
-height:max-content;
-
-}
-.grid-item-aside-two{
-        grid-area: aside-two;
-         background-color: rgba(0, 0, 0, 0.44);
-         border-style:double;
-         border-color: midnightblue;
-         text-align:right;
-         width:"200";
-       
-}
-.textbox{
-    grid-area: aside-one;
-    align-items:center;
-    width:"200";
-} */
 .topnav {
     overflow: hidden;
     background-color: #1401015c;
@@ -54,12 +14,9 @@ height:max-content;
   .topnav a {
     float: right;
     display: block;
-    color: rgb(4, 176, 250);
+    color: rgba(4, 176, 250, 0.83);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-  }
-  .image{
-    align-content: end;
   }

@@ -1,0 +1,277 @@
+{
+"q1": {
+    "id": "q1",
+    "question": "What was the name of the talking car in the television show 'Knight Rider'?",
+    "answers": [
+      "HAL",
+      "BENDER",
+      "KITT",
+      "JEEVES"
+    ],
+    "correctAnswer": "KITT"
+  },
+  "q2": {
+    "id": "q2",
+    "question": "Tilda Swinton plays the role of which character in the Marvel Cinematic Unvierse?",
+    "answers": [
+      "Agent Peggy Carter",
+      "Rocket Raccoon",
+      "Valkyrie",
+      "The Ancient One"
+    ],
+    "correctAnswer": "The Ancient One"
+  },
+  "q3": {
+    "id": "q3",
+    "question": "Who won the 2014 Academy Award for Best Leading Actor for playing the role of Stephen Hawking in 'The Theory of Everything'?",
+    "answers": [
+      "Eddie Redmayne",
+      "Steve Carell",
+      "Bradley Cooper",
+      "Benedict Cumberbatch"
+    ],
+    "correctAnswer": "Eddie Redmayne"
+  },
+  "q4": {
+    "id": "q4",
+    "question": "Name the movie that matches the following plot summary: 'Follows the rise and fall of a stock-broker living the high life.'",
+    "answers": [
+      "Django Unchained",
+      "The Wolf of Wall Street",
+      "Up",
+      "Snatch"
+    ],
+    "correctAnswer": "The Wolf of Wall Street"
+  },
+  "q5": {
+    "id": "q5",
+    "question": "What are The Simpsons Halloween specials known as?",
+    "answers": [
+      "Spooky Springfield",
+      "The Halloween Haunt",
+      "Evergreen Menace",
+      "Treehouse of Horror"
+    ],
+    "correctAnswer": "Treehouse of Horror"
+  },
+  "q6": {
+    "id": "q6",
+    "question": "Which wizard was portrayed by Christopher Lee in 'The Lord Of The Rings'?",
+    "answers": [
+      "Saruman",
+      "Gandalf",
+      "Radagast",
+      "Merlin"
+    ],
+    "correctAnswer": "Saruman"
+  },
+  "q7": {
+    "id": "q7",
+    "question": "Name the movie that matches the following plot summary: 'The daughter of a plantation owner conducts a romance with a roguish profiteer.'",
+    "answers": [
+      "Downfall",
+      "My Neighbour Totoro",
+      "Gone with the Wind",
+      "Up"
+    ],
+    "correctAnswer": "Gone with the Wind"
+  },
+  "q8": {
+    "id": "q8",
+    "question": "Which film contains the character Oda Mae Brown",
+    "answers": [
+      "Apocalypse Now",
+      "Ghost",
+      "Blue Velvet",
+      "Terms of Endearment"
+    ],
+    "correctAnswer": "Ghost"
+  },
+  "q9": {
+    "id": "q9",
+    "question": "Name the movie that matches the following plot summary: 'A maverick teacher emboldens his students to new heights of self-expression.'",
+    "answers": [
+      "Raging Bull",
+      "Modern Times",
+      "The Wizard of Oz",
+      "Dead Poets Society"
+    ],
+    "correctAnswer": "Dead Poets Society"
+  },
+  "q10": {
+    "id": "q10",
+    "question": "Which actor plays the role of Michelle \"MJ\" Jones-Watson in the Marvel Cinematic Universe?",
+    "answers": [
+      "Elizabeth Olsen",
+      "Hayley Atwell",
+      "Zendaya",
+      "Karen Gillan"
+    ],
+    "correctAnswer": "Zendaya"
+  },
+  "q11": {
+    "id": "q11",
+    "question": "Which actor plays the role of Bucky Barnes in the Marvel Cinematic Universe?",
+    "answers": [
+      "Sebastian Stan",
+      "Stellan Skarsgård",
+      "John Slattery",
+      "Jeff Goldblum"
+    ],
+    "correctAnswer": "Sebastian Stan"
+  },
+  "q12": {
+    "id": "q12",
+    "question": "In the Marvel Cinematic Unvierse, which character is played by Karen Gillan?",
+    "answers": [
+      "Eitri",
+      "Nebula",
+      "Shuri",
+      "Pepper Potts"
+    ],
+    "correctAnswer": "Nebula"
+  },
+  "q13": {
+    "id": "q13",
+    "question": "What was the name of Dustin Hoffman's character in the 1967 film 'The Graduate'?",
+    "answers": [
+      "Martin Jackson",
+      "Leo Quince",
+      "Harold Buck",
+      "Ben Braddock"
+    ],
+    "correctAnswer": "Ben Braddock"
+  },
+  "q14": {
+    "id": "q14",
+    "question": "What is the plot of the movie Memento?",
+    "answers": [
+      "A mother personally challenges the local authorities to solve her daughter's murder.",
+      "A man with short-term memory loss attempts to track down his wife's murderer.",
+      "Two grifters team up to pull off the ultimate con.",
+      "The story an English officer who successfully united and led the Arab tribes during World War I."
+    ],
+    "correctAnswer": "A man with short-term memory loss attempts to track down his wife's murderer."
+  },
+  "q15": {
+    "id": "q15",
+    "question": "Who won the 1998 Academy Award for Best Leading Actress for playing the role of Viola De Lesseps in 'Shakespeare in Love'?",
+    "answers": [
+      "Gwyneth Paltrow",
+      "Cate Blanchett",
+      "Fernanda Montenegro",
+      "Meryl Streep"
+    ],
+    "correctAnswer": "Gwyneth Paltrow"
+  },
+  "q16": {
+    "id": "q16",
+    "question": "Which film contains the character Jules Winnfield?",
+    "answers": [
+      "A Streetcar Named Desire",
+      "Grease",
+      "Gangs of New York",
+      "Pulp Fiction"
+    ],
+    "correctAnswer": "Pulp Fiction"
+  },
+  "q17": {
+    "id": "q17",
+    "question": "Who won the 2000 Academy Award for Best Leading Actor for playing the role of Maximus Decimus Meridius in 'Gladiator'?",
+    "answers": [
+      "Russell Crowe",
+      "Javier Bardem",
+      "Tom Hanks",
+      "Ed Harris"
+    ],
+    "correctAnswer": "Russell Crowe"
+  },
+  "q18": {
+    "id": "q18",
+    "question": "Who played the role of James Bond in 'The Man with the Golden Gun'?",
+    "answers": [
+      "Pierce Brosnan",
+      "George Lazenby",
+      "Roger Moore",
+      "Timothy Dalton"
+    ],
+    "correctAnswer": "Roger Moore"
+  },
+  "q19": {
+    "id": "q19",
+    "question": "Which director directed 'Inglourious Basterds'?",
+    "answers": [
+      "Ridley Scott",
+      "Spike Lee",
+      "Oliver Stone",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": "Quentin Tarantino"
+  },
+  "q20": {
+    "id": "q20",
+    "question": "Which of these quotes is from the film 'The Hunger Games'?",
+    "answers": [
+      "\"After all, tomorrow is another day!\"",
+      "\"May the odds ever be in your favor.\"",
+      "\"I'll have what she's having.\"",
+      "\"Exercise gives you endorphins. Endorphins make you happy. Happy people just don’t shoot their husbands. They just don’t.\""
+    ],
+    "correctAnswer": "\"May the odds ever be in your favor.\""
+  },
+  "q21": {
+    "id": "q21",
+    "question": "Which director directed '2001: A Space Odyssey'?",
+    "answers": [
+      "Steven Spielberg",
+      "Francis Ford Coppola",
+      "Stanley Kubrick",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": "Stanley Kubrick"
+  },
+  "q22": {
+    "id": "q22",
+    "question": "From which London railway station does Harry Potter catch the Hogwart's Express?",
+    "answers": [
+      "King's Cross",
+      "Waterloo",
+      "Charing Cross",
+      "Paddington"
+    ],
+    "correctAnswer": "King's Cross"
+  },
+  "q23": {
+    "id": "q23",
+    "question": "Who was the Defense Against the Dark Arts teacher in 'Harry Potter and the Goblet of Fire'?",
+    "answers": [
+      "Alastor “Mad-Eye” Moody",
+      "Remus Lupin",
+      "Gilderoy Lockhart",
+      "Bartemius Crouch Jr."
+    ],
+    "correctAnswer": "Bartemius Crouch Jr."
+  },
+  "q24": {
+    "id": "q24",
+    "question": "In which year was Star Wars: Episode V - The Empire Strikes Back first released in theaters?",
+    "answers": [
+      "1965",
+      "1980",
+      "1970",
+      "1975"
+    ],
+    "correctAnswer": "1980"
+  },
+  "q25": {
+    "id": "q25",
+    "question": "Who is associated with the address '221B Baker Street, London'?",
+    "answers": [
+      "Harry Potter",
+      "Charles Dickens",
+      "Sherlock Holmes",
+      "Thomas Hardy"
+    ],
+    "correctAnswer": "Sherlock Holmes"
+  }
+}
